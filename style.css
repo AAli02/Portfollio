@@ -159,9 +159,10 @@ nav {
 
 
 .about-me__picture {
-    width: 90%;
-    transform: scale(1.5);
-    margin-top: 8px;
+    width: 110%;
+    transform: scale(4.2);
+    margin-top: 45px;
+    padding-right: 10px;
 }
 
 .about-me__logo--mask {
@@ -230,6 +231,7 @@ nav {
   display: flex;
   align-items: center;
 }
+
 .about-me__img {
   width: 100%;
   padding: 20px;
