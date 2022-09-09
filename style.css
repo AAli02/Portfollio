@@ -99,6 +99,10 @@ section:nth-child(even) {
   margin-bottom: 20px;
 }
 
+.section__title2 {
+  margin-bottom: 50px;
+}
+
 /* NAVIGATION BAR */
 li {
   list-style-type: none;
@@ -162,6 +166,7 @@ nav {
   align-items: center;
   max-width: 600px;
   margin: 0 auto;
+  margin-top: 60px;
   text-align: center;
 }
 
@@ -492,6 +497,7 @@ footer {
 
   .project__wrapper {
     border-radius: 25px;
+    margin: 5px;
   }
 
   .project__description {
