@@ -141,11 +141,9 @@ nav {
   background-color: red;
 }
 
-.personal__logo {
-  font-size: 24px;
-  color: #242424;
-  margin: 0 12px;
-  font-weight: bold
+#personal-logo {
+  width: 70px;
+  height: 70px;
 }
 
 /*about me*/
@@ -171,10 +169,10 @@ nav {
 }
 
 .about-me__picture {
-    width: 110%;
-    transform: scale(4.2);
-    margin-top: 45px;
-    padding-right: 10px;
+  width: 110%;
+  transform: scale(4.2);
+  margin-top: 160px;
+  padding-left: 20px;
 }
 
 .about-me__logo--mask {
@@ -433,6 +431,8 @@ footer {
 .footer__logo--img {
   width: 70px;
   height: 70px;
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(1) invert(1);
 }
 
 .footer__social--link,
